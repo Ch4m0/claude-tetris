@@ -110,6 +110,27 @@ kbd {
   color: #aaa;
 }
 
+/* ---- Power-ups legend ---- */
+.powerups-legend ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.powerups-legend li {
+  font-size: 11px;
+  color: #888;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pu-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
 /* ---- Overlay ---- */
 .overlay {
   position: absolute;
